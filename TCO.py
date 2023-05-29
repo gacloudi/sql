@@ -41,8 +41,8 @@ if choice=="Score & Category":
     #st.write(op)
 
     #st.table(op)
-    op=op.style.hide_index()\
-                            .set_table_styles([{'selector': 'th','props': [('background-color', '#ADD8E6'),('font-size','7'),('color', '#000005'),('font-weight', 'bold')]}])
+    #op=op.style.hide_index()\
+                            #.set_table_styles([{'selector': 'th','props': [('background-color', '#ADD8E6'),('font-size','7'),('color', '#000005'),('font-weight', 'bold')]}])
                             #.set_table_styles([{'selector': 'th','props': [('font-weight', 'bold')]}])\
                             #set_table_styles([{'selector': 'th','props': [('color', '#000000')]}])
                             #.applymap(highlight_cells,color_if_true='#2E8B57',color_if_false='#CB6D51',subset=['BC'])
